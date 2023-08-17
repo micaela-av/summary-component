@@ -1,0 +1,180 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url('  HankenGrotesk-VariableFont_wght.ttf') format('woff2'),
+         url('  HankenGrotesk-VariableFont_wght.ttf') format('woff');
+  }
+*{
+    padding:0;
+}
+body{
+    font-family: "Hanken Grotesk" ;
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color:white;
+}
+.container{
+    max-width: 460px;
+    margin: auto;
+    display:flex;
+    border-radius: 30px;
+    box-shadow: 0px 0px 25px 5px #d8d4d4;
+}
+.card1{
+    background-color:  hsl(244, 74%, 62%);
+    padding: 10px 10px 10px 10px;
+    border-radius: 17px;
+    text-align: center;
+    min-width: 235px;
+}
+.card2{
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px 18px 18px 18px;
+    border-radius: 17px;
+}
+.summary1{
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.144);
+    font-weight: 700;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 225px;
+    height: 45px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.summary2{
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 71%, 84%, 0.411);
+    font-weight: 700;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 225px; /*ancho de recuadro naranja*/
+    height: 45px; 
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.summary3{
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 53%, 83%, 0.329);
+    font-weight: 700;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 225px;
+    height: 45px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.summary4{
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(233, 56%, 79%, 0.267);
+    font-weight: 700;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 225px;
+    height: 45px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+img{
+    padding: 10px;
+}
+button{
+    height: 45px;
+    width: 225px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgb(60, 60, 97);
+    color:white;
+    font-weight: 600;
+}
+button:hover {
+    background-color:hsl(244, 74%, 62%);
+}
+
+#circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(180deg, hsl(244, 87%, 38%),hsla(241, 72%, 46%, 0));
+}
+.numbers{
+    color: rgb(8, 8, 95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+#circle h1{
+    font-weight: 800;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    color: hsl(0, 0%, 100%);
+}
+
+#circle p{
+    margin:0;
+    padding: 0;
+    font-weight: 800;
+    font-size: 12px;
+    color:hsla(248, 10%, 84%, 0.952);
+}
+.top{
+    font-weight: 700;
+    font-size: 18px;
+    color: hsla(248, 10%, 84%, 0.952);
+}
+.card1-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color:hsla(248, 10%, 84%, 0.952);
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    margin-top:10px
+}
+h2{
+    margin-bottom: 0px;
+    margin-top:15px;
+}
+h3{
+    color: rgb(8, 8, 95);
+}
+.numbers-top{
+    color: rgb(8, 8, 95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 45px;
+}
+.hundred{
+    color: hsla(252, 3%, 62%, 0.952);
+}
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Cambio a dirección de fila */
+      align-items: center; /* Centrar elementos en el eje horizontal */
+      width: 265px;
+    }
+  }
